@@ -1,6 +1,8 @@
 package setting
 
-import "github.com/spf13/viper"
+import (
+	"github.com/spf13/viper"
+)
 
 //Setting ...
 type Setting struct {

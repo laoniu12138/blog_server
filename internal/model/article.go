@@ -10,6 +10,11 @@ type Article struct {
 	State         uint8  `json:"state"`
 }
 
+type ArticleSwagger struct{
+	List []*Article
+	Pager *app.Pager
+}
+
 // TableName ...
 func (a Article) TableName() string {
 	return "blog_article"

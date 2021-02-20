@@ -1,8 +1,8 @@
 package model
 
 import (
-	"blog-server/global"
-	"blog-server/pkg/setting"
+	"blog_server/global"
+	"blog_server/pkg/setting"
 	"fmt"
 
 	"github.com/jinzhu/gorm"
